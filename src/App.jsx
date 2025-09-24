@@ -150,7 +150,7 @@ const App = () => {
       } catch (error) {
         console.error("Error fetching word:", error);
         alert('Error fetching word, using fallback word!');
-        setWord('REACT');
+        setWord('HELLO');
       }
     };
 
